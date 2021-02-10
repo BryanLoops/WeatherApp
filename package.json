@@ -1,0 +1,16 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "A simple app to receive weather information from https://api.openweathermap.org using express, https and body-parser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Bryan Lopes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
